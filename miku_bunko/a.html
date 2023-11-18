@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.text1 {
+
+    color: #ff0000;
+    background: #00ffff;
+
+}
+
+.text2 {
+
+    color: #0000ff;
+    background: #ffff00;
+
+}
+</style>
+<body>
+
+<script>
+function test() {
+
+    var elm = document.getElementById('test_line');
+
+    elm.className = 'text2';
+
+}
+</script>
+
+<p id="test_line" class="text1">test</p>
+
+<button onclick="test()">change</button>
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #39C5BB;
+    overflow-x: hidden;
+}
+.mikuwrap{
+    width: 100%;
+    text-align: center;
+}
+.miku{
+    margin: 10px auto;
+    background-image: url(img/bunko.png);
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+}
+.miku.change{
+    margin: 10px auto;
+    background-image: url(img/unko.png);
+    background-size: cover;
+    width: 700px;
+    height: 500px;
+}
+.button{
+    width: 100%;
+    text-align: center;
+}
+.voice_on{
+    margin: 10px auto;
+    width: 20%;
+}
+.hoppe_on{
+    margin: 10px auto;
+    width: 20%;
+}
+.voice_on:hover{
+    opacity: 0.7;
+}
+.hoppe_on:hover{
+    opacity: 0.7;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学級文庫ミク</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="mikuwrap"><div class="miku"></div></div>
+    <div class="button">
+
+        <img class="voice_on" src="img/voice.png" onclick="audio()" alt="">
+        <audio id="bunko" preload="auto">
+            <source src="./audio/bunko.mp3" type="audio/mp3">
+        </audio>
+        <audio id="unko" preload="auto">
+            <source src="./audio/unko.mp3" type="audio/mp3">
+        </audio>
+
+        <img class="hoppe_on" src="img/hoppe.png" onclick="change()" alt="">
+    </div>
+</body>
+
+</html>
